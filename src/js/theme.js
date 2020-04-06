@@ -26,7 +26,7 @@ function checkTheme() {
   if (themeStatus === Theme.DARK) {
     setDarkTheme();
     switchRef.checked = true;
-  } else if (themeStatus === Theme.LIGHT) {
+  } else {
     setLightTheme();
   }
 }
